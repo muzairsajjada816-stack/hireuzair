@@ -74,7 +74,7 @@ export default function Hero() {
 {"  "}role: <span className="text-emerald-400">"AI Agent Dev"</span>,{"\n"}
 {"  "}location: <span className="text-emerald-400">"Pakistan 🇵🇰"</span>,{"\n"}
 {"  "}available: <span className="text-primary">true</span>,{"\n"}
-{"  "}skills: [<span className="text-emerald-400">"React"</span>, <span className="text-emerald-400">"Node"</span>, <span className="text-emerald-400">"Next.js"</span>],{"\n"}
+{"  "}skills: [<span className="text-emerald-400">"Python"</span>, <span className="text-emerald-400">"CrewAI"</span>, <span className="text-emerald-400">"LangChain"</span>],{"\n"}
 {"  "}passion: <span className="text-emerald-400">"Building things"</span>{"\n"}
 {"}"};
               </pre>
