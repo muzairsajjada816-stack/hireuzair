@@ -74,14 +74,14 @@ export default function Hero() {
 {"  "}role: <span className="text-emerald-400">"AI Agent Dev"</span>,{"\n"}
 {"  "}location: <span className="text-emerald-400">"Pakistan 🇵🇰"</span>,{"\n"}
 {"  "}available: <span className="text-primary">true</span>,{"\n"}
-{"  "}skills: [<span className="text-emerald-400">"React"</span>, <span className="text-emerald-400">"Node"</span>, <span className="text-emerald-400">"Next.js"</span>],{"\n"}
+{"  "}skills: [<span className="text-emerald-400">"Python"</span>, <span className="text-emerald-400">"CrewAI"</span>, <span className="text-emerald-400">"LangChain"</span>],{"\n"}
 {"  "}passion: <span className="text-emerald-400">"Building things"</span>{"\n"}
 {"}"};
               </pre>
             </div>
             {/* Skill badges */}
             <div className="flex flex-wrap gap-2 mt-4 justify-center">
-              {["React", "Next.js", "Node.js", "TypeScript", "Tailwind", "MongoDB"].map((s) => (
+              {["Python", "CrewAI", "LangChain", "OpenAI", "n8n", "FastAPI"].map((s) => (
                 <span
                   key={s}
                   className="px-3 py-1 text-xs font-body font-medium rounded-full border border-border/50 bg-secondary/50 text-muted-foreground hover:text-primary hover:border-primary/30 transition-all duration-300"
