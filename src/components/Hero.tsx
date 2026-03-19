@@ -81,7 +81,7 @@ export default function Hero() {
             </div>
             {/* Skill badges */}
             <div className="flex flex-wrap gap-2 mt-4 justify-center">
-              {["React", "Next.js", "Node.js", "TypeScript", "Tailwind", "MongoDB"].map((s) => (
+              {["Python", "CrewAI", "LangChain", "OpenAI", "n8n", "FastAPI"].map((s) => (
                 <span
                   key={s}
                   className="px-3 py-1 text-xs font-body font-medium rounded-full border border-border/50 bg-secondary/50 text-muted-foreground hover:text-primary hover:border-primary/30 transition-all duration-300"

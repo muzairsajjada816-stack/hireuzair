@@ -1,11 +1,11 @@
-import { Code2, Server, Palette, ShoppingCart, Brain, Gauge } from "lucide-react";
+import { Bot, Network, Workflow, Brain, Globe, Gauge } from "lucide-react";
 
 const services = [
-  { icon: Code2, title: "Frontend Development", desc: "Pixel-perfect interfaces with React, Next.js, and TypeScript. Responsive, fast, and accessible." },
-  { icon: Server, title: "Backend Development", desc: "Scalable APIs and server architecture with Node.js, Express, and modern databases." },
-  { icon: Palette, title: "UI/UX Design", desc: "User-centered design in Figma — wireframes, prototypes, and design systems that convert." },
-  { icon: ShoppingCart, title: "E-Commerce Solutions", desc: "Full online stores with Stripe, inventory management, and seamless checkout flows." },
-  { icon: Brain, title: "AI-Powered Apps", desc: "Intelligent features using OpenAI, LangChain, and custom ML integrations." },
+  { icon: Bot, title: "AI Agent Development", desc: "Custom AI agents built with CrewAI and LangChain that reason, plan, and execute complex tasks autonomously." },
+  { icon: Network, title: "Multi-Agent Systems", desc: "Orchestrated teams of specialized AI agents that collaborate to solve problems no single agent can handle." },
+  { icon: Workflow, title: "Workflow Automation", desc: "End-to-end automation using n8n, Make, and Zapier — eliminating repetitive tasks and saving hours daily." },
+  { icon: Brain, title: "LLM Integration", desc: "Seamless integration of OpenAI, Gemini, and open-source LLMs into your existing products and workflows." },
+  { icon: Globe, title: "Web Scraping & Data Extraction", desc: "Intelligent scrapers and data pipelines that collect, clean, and structure information at scale." },
   { icon: Gauge, title: "Performance & SEO", desc: "Core Web Vitals optimization, technical SEO, and blazing-fast load times." },
 ];
 

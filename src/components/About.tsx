@@ -42,9 +42,9 @@ export default function About() {
               ideas into polished, performant products using modern technologies.
             </p>
             <p className="reveal reveal-delay-3 font-body text-muted-foreground leading-relaxed mb-8">
-              From concept to deployment, I handle the entire stack — frontend interfaces that feel 
-              alive, robust backends that scale, and designs that users actually enjoy. I care deeply 
-              about clean code, great UX, and delivering real results.
+              From concept to deployment, I handle the entire pipeline — intelligent AI agents that reason and act, 
+              multi-agent systems that collaborate, and automation workflows that save hours of manual work. I care deeply 
+              about clean architecture, reliable outputs, and delivering real results.
             </p>
 
             {/* Profile buttons */}
