@@ -23,7 +23,7 @@ export default function About() {
               {/* Name overlay card */}
               <div className="absolute -bottom-6 -right-6 bg-card border border-border/50 rounded-xl p-4 shadow-xl">
                 <div className="font-heading font-700 text-lg text-foreground">Muhammad Uzair</div>
-                <div className="font-body text-sm text-muted-foreground">Full Stack Developer</div>
+                <div className="font-body text-sm text-muted-foreground">AI Agent Developer & Automation Engineer</div>
               </div>
             </div>
           </div>
