@@ -23,7 +23,7 @@ export default function About() {
               {/* Name overlay card */}
               <div className="absolute -bottom-6 -right-6 bg-card border border-border/50 rounded-xl p-4 shadow-xl">
                 <div className="font-heading font-700 text-lg text-foreground">Muhammad Uzair</div>
-                <div className="font-body text-sm text-muted-foreground">Full Stack Developer</div>
+                <div className="font-body text-sm text-muted-foreground">AI Agent Developer & Automation Engineer</div>
               </div>
             </div>
           </div>
@@ -37,8 +37,8 @@ export default function About() {
               Crafting digital experiences<br />that make an impact
             </h2>
             <p className="reveal reveal-delay-2 font-body text-muted-foreground text-lg leading-relaxed mb-4">
-              I'm Muhammad Uzair — a full stack developer and UI/UX designer based in Pakistan, 
-              building high-quality web applications for clients worldwide. I specialize in turning 
+              I'm Muhammad Uzair — an AI agent developer and automation engineer based in Pakistan, 
+              building high-quality AI-powered applications and automation solutions for clients worldwide. I specialize in turning 
               ideas into polished, performant products using modern technologies.
             </p>
             <p className="reveal reveal-delay-3 font-body text-muted-foreground leading-relaxed mb-8">
