@@ -1,9 +1,9 @@
 import { ExternalLink } from "lucide-react";
 
 const skills = [
-  "React", "Next.js", "Node.js", "Express",
-  "MongoDB", "PostgreSQL", "TypeScript", "Tailwind",
-  "Figma", "REST APIs", "GraphQL", "Docker",
+  "Python", "CrewAI", "LangChain", "OpenAI API",
+  "Gemini API", "Streamlit", "n8n", "Make",
+  "Zapier", "FastAPI", "Vector Databases",
 ];
 
 export default function About() {
