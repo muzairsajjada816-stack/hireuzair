@@ -21,9 +21,9 @@ export default function Hero() {
           </div>
 
           <h1 className="reveal reveal-delay-1 font-heading font-800 text-4xl sm:text-5xl lg:text-6xl xl:text-7xl leading-[1.05] tracking-[-0.03em] mb-6">
-            Full Stack Developer
+            AI Agent Developer
             <br />
-            <span className="text-primary">&</span> Problem Solver
+            <span className="text-primary">&</span> Automation Engineer
           </h1>
 
           <p className="reveal reveal-delay-2 font-body text-muted-foreground text-lg lg:text-xl max-w-lg mb-10 leading-relaxed">
