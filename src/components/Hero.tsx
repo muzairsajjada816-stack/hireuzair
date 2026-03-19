@@ -27,7 +27,7 @@ export default function Hero() {
           </h1>
 
           <p className="reveal reveal-delay-2 font-body text-muted-foreground text-lg lg:text-xl max-w-lg mb-10 leading-relaxed">
-            Based in Pakistan, crafting high-performance web experiences for clients worldwide. I turn complex problems into elegant solutions.
+            Based in Pakistan, building intelligent AI agents and automation systems for clients worldwide. I turn complex problems into smart automated solutions.
           </p>
 
           <div className="reveal reveal-delay-3 flex flex-wrap gap-4 mb-14">
