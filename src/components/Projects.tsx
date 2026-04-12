@@ -7,6 +7,7 @@ const projects = [
     subtitle: "Creative AI Agent",
     desc: "An AI agent that generates interactive, branching stories using LLM reasoning — users guide the narrative while the agent crafts rich, coherent plotlines.",
     tech: ["CrewAI", "LangChain", "OpenAI"],
+    github: "https://github.com/muzairsajjada816-stack/simple-ai_agent",
   },
   {
     emoji: "🎮",
@@ -14,6 +15,7 @@ const projects = [
     subtitle: "Multi-Agent System",
     desc: "A multi-agent system where specialized agents collaborate to design game mechanics, write lore, and generate balanced rule sets from a single prompt.",
     tech: ["CrewAI", "Python", "Gemini API"],
+    github: "https://github.com/muzairsajjada816-stack/game-designer-agent",
   },
   {
     emoji: "📚",
@@ -80,12 +82,16 @@ export default function Projects() {
                 >
                   Live Demo <ExternalLink size={14} />
                 </a>
+                {p.github && (
                 <a
-                  href="#"
+                  href={p.github}
+                  target="_blank"
+                  rel="noopener noreferrer"
                   className="inline-flex items-center gap-1.5 text-sm font-body font-medium text-muted-foreground hover:text-foreground transition-colors duration-300"
                 >
                   GitHub <Github size={14} />
                 </a>
+                )}
               </div>
             </div>
           ))}
