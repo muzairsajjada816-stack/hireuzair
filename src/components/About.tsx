@@ -1,4 +1,4 @@
-import { ExternalLink } from "lucide-react";
+import { ExternalLink, CheckCircle } from "lucide-react";
 
 const skills = [
   "Python", "CrewAI", "LangChain", "OpenAI API",
@@ -84,6 +84,21 @@ export default function About() {
                   </div>
                 ))}
               </div>
+            </div>
+
+            {/* Certification badge */}
+            <div className="reveal reveal-delay-4 mt-6">
+              <a
+                href="http://skill2success.com/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-primary/10 border border-primary/20 hover:border-primary/40 transition-colors duration-300 group"
+              >
+                <CheckCircle size={16} className="text-primary" />
+                <span className="font-body text-sm font-medium text-primary">
+                  Certified Developer — Skill2Success
+                </span>
+              </a>
             </div>
           </div>
         </div>
