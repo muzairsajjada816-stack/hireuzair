@@ -82,12 +82,16 @@ export default function Projects() {
                 >
                   Live Demo <ExternalLink size={14} />
                 </a>
+                {p.github && (
                 <a
-                  href="#"
+                  href={p.github}
+                  target="_blank"
+                  rel="noopener noreferrer"
                   className="inline-flex items-center gap-1.5 text-sm font-body font-medium text-muted-foreground hover:text-foreground transition-colors duration-300"
                 >
                   GitHub <Github size={14} />
                 </a>
+                )}
               </div>
             </div>
           ))}
