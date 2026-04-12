@@ -1,4 +1,4 @@
-import { ExternalLink } from "lucide-react";
+import { ExternalLink, CheckCircle } from "lucide-react";
 
 const skills = [
   "Python", "CrewAI", "LangChain", "OpenAI API",
