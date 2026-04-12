@@ -76,18 +76,20 @@ export default function Projects() {
               <p className="font-body text-sm text-primary/70 mb-3">{p.subtitle}</p>
               <p className="font-body text-sm text-muted-foreground leading-relaxed mb-6">{p.desc}</p>
               <div className="flex gap-4">
+                {!p.github && (
                 <a
                   href="#"
                   className="inline-flex items-center gap-1.5 text-sm font-body font-medium text-foreground hover:text-primary transition-colors duration-300"
                 >
                   Live Demo <ExternalLink size={14} />
                 </a>
+                )}
                 {p.github && (
                 <a
                   href={p.github}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="inline-flex items-center gap-1.5 text-sm font-body font-medium text-muted-foreground hover:text-foreground transition-colors duration-300"
+                  className="inline-flex items-center gap-1.5 text-sm font-body font-medium text-foreground hover:text-primary transition-colors duration-300"
                 >
                   GitHub <Github size={14} />
                 </a>
