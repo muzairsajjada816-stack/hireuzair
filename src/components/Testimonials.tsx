@@ -41,7 +41,7 @@ export default function Testimonials() {
           {testimonials.map((t, i) => (
             <div
               key={t.name}
-              className={`reveal reveal-delay-${i + 1} bg-card border border-border/50 rounded-2xl p-7 hover:-translate-y-1 transition-all duration-500 ${
+              className={`reveal reveal-delay-${i + 1} card-glow bg-card border border-border/50 rounded-2xl p-7 transition-all duration-500 ${
                 i === 1 ? "md:-translate-y-4" : ""
               }`}
             >

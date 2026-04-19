@@ -62,7 +62,7 @@ export default function Hero() {
         {/* Right — Code card */}
         <div className="reveal reveal-delay-2 hidden lg:block">
           <div className="float relative">
-            <div className="bg-card border border-border/50 rounded-2xl p-6 font-mono text-sm shadow-2xl shadow-primary/5">
+            <div className="card-glow bg-card border border-border/50 rounded-2xl p-6 font-mono text-sm">
               <div className="flex gap-2 mb-4">
                 <span className="w-3 h-3 rounded-full bg-red-500/70" />
                 <span className="w-3 h-3 rounded-full bg-yellow-500/70" />
