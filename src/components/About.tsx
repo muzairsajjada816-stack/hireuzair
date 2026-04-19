@@ -87,7 +87,7 @@ export default function About() {
             </div>
 
             {/* Certification badge */}
-            <div className="reveal reveal-delay-4 mt-6">
+            <div className="reveal reveal-delay-4 mt-6 flex flex-wrap gap-3">
               <a
                 href="http://skill2success.com/"
                 target="_blank"
@@ -97,6 +97,17 @@ export default function About() {
                 <CheckCircle size={16} className="text-primary" />
                 <span className="font-body text-sm font-medium text-primary">
                   Certified Developer — Skill2Success
+                </span>
+              </a>
+              <a
+                href="/certificates/M.Uzair_Sajjad-8_Modules.pdf"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-flex items-center gap-2 px-4 py-2 rounded-full border border-border hover:border-primary hover:text-primary transition-colors duration-300 group"
+              >
+                <ExternalLink size={14} className="opacity-60 group-hover:opacity-100" />
+                <span className="font-body text-sm font-medium">
+                  View Certificate
                 </span>
               </a>
             </div>
