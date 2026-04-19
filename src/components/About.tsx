@@ -1,4 +1,5 @@
 import { ExternalLink, CheckCircle } from "lucide-react";
+import certificateImg from "@/assets/certificate.png";
 
 const skills = [
   "Python", "CrewAI", "LangChain", "OpenAI API",
