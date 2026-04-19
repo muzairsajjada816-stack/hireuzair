@@ -1,3 +1,18 @@
+import { useCountUp } from "@/hooks/useCountUp";
+
+function Stat({ target, suffix, label }: { target: number; suffix: string; label: string }) {
+  const { ref, value } = useCountUp(target);
+  return (
+    <div ref={ref}>
+      <div className="font-heading font-700 text-2xl lg:text-3xl text-foreground">
+        {value}
+        {suffix}
+      </div>
+      <div className="font-body text-sm text-muted-foreground mt-1">{label}</div>
+    </div>
+  );
+}
+
 export default function Hero() {
   const scrollTo = (id: string) => {
     document.querySelector(id)?.scrollIntoView({ behavior: "smooth" });
@@ -46,16 +61,9 @@ export default function Hero() {
           </div>
 
           <div className="reveal reveal-delay-4 flex gap-10 lg:gap-14">
-            {[
-              ["30+", "Projects"],
-              ["25+", "Clients"],
-              ["3+", "Years"],
-            ].map(([num, label]) => (
-              <div key={label}>
-                <div className="font-heading font-700 text-2xl lg:text-3xl text-foreground">{num}</div>
-                <div className="font-body text-sm text-muted-foreground mt-1">{label}</div>
-              </div>
-            ))}
+            <Stat target={30} suffix="+" label="Projects" />
+            <Stat target={25} suffix="+" label="Clients" />
+            <Stat target={3} suffix="+" label="Years" />
           </div>
         </div>
 
