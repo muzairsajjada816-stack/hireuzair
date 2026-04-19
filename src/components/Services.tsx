@@ -27,7 +27,7 @@ export default function Services() {
           {services.map((s, i) => (
             <div
               key={s.title}
-              className={`reveal reveal-delay-${i < 6 ? i + 1 : 5} group relative bg-card border border-border/50 rounded-2xl p-7 hover:-translate-y-1 transition-all duration-500 overflow-hidden`}
+              className={`reveal reveal-delay-${i < 6 ? i + 1 : 5} card-glow group relative bg-card border border-border/50 rounded-2xl p-7 transition-all duration-500 overflow-hidden`}
             >
               {/* Top gradient line on hover */}
               <div className="absolute top-0 left-0 right-0 h-[2px] bg-gradient-to-r from-transparent via-primary to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500" />
