@@ -1,4 +1,5 @@
 import { ExternalLink, CheckCircle } from "lucide-react";
+import certificateImg from "@/assets/certificate.png";
 
 const skills = [
   "Python", "CrewAI", "LangChain", "OpenAI API",
@@ -99,6 +100,16 @@ export default function About() {
                   Certified Developer — Skill2Success
                 </span>
               </a>
+            </div>
+
+            {/* Certificate image */}
+            <div className="reveal reveal-delay-4 mt-6 flex justify-center">
+              <img
+                src={certificateImg}
+                alt="Skill2Success certification certificate for Muhammad Uzair"
+                loading="lazy"
+                className="w-full max-w-[500px] rounded-lg border border-border/60 shadow-lg"
+              />
             </div>
           </div>
         </div>
