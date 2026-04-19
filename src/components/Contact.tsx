@@ -18,7 +18,7 @@ export default function Contact() {
           <div className="grid sm:grid-cols-2 gap-6">
             <a
               href="mailto:muzairsajjada816@gmail.com"
-              className="flex items-center gap-4 group bg-card border border-border/50 rounded-2xl p-6 hover:border-primary/30 transition-colors duration-300"
+              className="flex items-center gap-4 group card-glow bg-card border border-border/50 rounded-2xl p-6 transition-colors duration-300"
             >
               <div className="w-12 h-12 rounded-xl bg-primary/10 flex items-center justify-center group-hover:bg-primary/20 transition-colors duration-300">
                 <Mail size={20} className="text-primary" />
@@ -35,7 +35,7 @@ export default function Contact() {
               href="https://www.upwork.com/freelancers/~0192130efb59eaa00e"
               target="_blank"
               rel="noopener noreferrer"
-              className="flex items-center gap-4 group bg-card border border-border/50 rounded-2xl p-6 hover:border-primary/30 transition-colors duration-300"
+              className="flex items-center gap-4 group card-glow bg-card border border-border/50 rounded-2xl p-6 transition-colors duration-300"
             >
               <div className="w-12 h-12 rounded-xl bg-primary/10 flex items-center justify-center group-hover:bg-primary/20 transition-colors duration-300">
                 <ExternalLink size={20} className="text-primary" />
@@ -52,7 +52,7 @@ export default function Contact() {
               href="https://contra.com/muhammad_uzair_j8xnvdlz/work"
               target="_blank"
               rel="noopener noreferrer"
-              className="flex items-center gap-4 group bg-card border border-border/50 rounded-2xl p-6 hover:border-primary/30 transition-colors duration-300"
+              className="flex items-center gap-4 group card-glow bg-card border border-border/50 rounded-2xl p-6 transition-colors duration-300"
             >
               <div className="w-12 h-12 rounded-xl bg-primary/10 flex items-center justify-center group-hover:bg-primary/20 transition-colors duration-300">
                 <ExternalLink size={20} className="text-primary" />
@@ -65,7 +65,7 @@ export default function Contact() {
               </div>
             </a>
 
-            <div className="flex items-center gap-4 bg-card border border-border/50 rounded-2xl p-6">
+            <div className="flex items-center gap-4 card-glow bg-card border border-border/50 rounded-2xl p-6">
               <div className="w-12 h-12 rounded-xl bg-primary/10 flex items-center justify-center">
                 <MapPin size={20} className="text-primary" />
               </div>

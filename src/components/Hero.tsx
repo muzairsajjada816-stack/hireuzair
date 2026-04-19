@@ -21,7 +21,7 @@ export default function Hero() {
           </div>
 
           <h1 className="reveal reveal-delay-1 font-heading font-800 text-4xl sm:text-5xl lg:text-6xl xl:text-7xl leading-[1.05] tracking-[-0.03em] mb-6">
-            AI Agent Developer
+            <span className="typing">AI Agent Developer</span>
             <br />
             <span className="text-primary">&</span> Automation Engineer
           </h1>
@@ -33,13 +33,13 @@ export default function Hero() {
           <div className="reveal reveal-delay-3 flex flex-wrap gap-4 mb-14">
             <button
               onClick={() => scrollTo("#projects")}
-              className="px-7 py-3.5 rounded-full bg-primary text-primary-foreground font-body font-semibold text-sm hover:scale-105 hover:shadow-[0_0_30px_hsl(248_93%_70%/0.3)] transition-all duration-300"
+              className="btn-glow glow-pulse px-7 py-3.5 rounded-full bg-primary text-primary-foreground font-body font-semibold text-sm hover:scale-105 transition-all duration-300"
             >
               View My Work
             </button>
             <button
               onClick={() => scrollTo("#contact")}
-              className="px-7 py-3.5 rounded-full border border-border text-foreground font-body font-semibold text-sm hover:border-primary hover:text-primary transition-all duration-300"
+              className="btn-glow px-7 py-3.5 rounded-full border border-border text-foreground font-body font-semibold text-sm hover:border-primary hover:text-primary transition-all duration-300"
             >
               Let's Talk
             </button>
@@ -62,7 +62,7 @@ export default function Hero() {
         {/* Right — Code card */}
         <div className="reveal reveal-delay-2 hidden lg:block">
           <div className="float relative">
-            <div className="bg-card border border-border/50 rounded-2xl p-6 font-mono text-sm shadow-2xl shadow-primary/5">
+            <div className="card-glow bg-card border border-border/50 rounded-2xl p-6 font-mono text-sm">
               <div className="flex gap-2 mb-4">
                 <span className="w-3 h-3 rounded-full bg-red-500/70" />
                 <span className="w-3 h-3 rounded-full bg-yellow-500/70" />

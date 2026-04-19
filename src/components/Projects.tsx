@@ -62,7 +62,7 @@ export default function Projects() {
           {projects.map((p, i) => (
             <div
               key={p.title}
-              className={`reveal reveal-delay-${i + 1} group bg-card border border-border/50 rounded-2xl p-7 hover:-translate-y-1 hover:shadow-[0_10px_40px_-10px_hsl(248_93%_70%/0.15)] transition-all duration-500`}
+              className={`reveal reveal-delay-${i + 1} card-glow group bg-card border border-border/50 rounded-2xl p-7 transition-all duration-500`}
             >
               <div className="text-3xl mb-4">{p.emoji}</div>
               <div className="flex flex-wrap gap-2 mb-4">
