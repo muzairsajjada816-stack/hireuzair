@@ -17,10 +17,11 @@ export default function About() {
           <div className="reveal">
             <div className="relative">
               <div className="aspect-[4/5] rounded-2xl bg-gradient-to-br from-primary/20 to-secondary overflow-hidden relative">
-                <div className="absolute inset-0 bg-[linear-gradient(135deg,hsl(248_93%_70%/0.1)_0%,transparent_50%)]" />
-                <div className="absolute inset-0 flex items-center justify-center">
-                  <span className="font-heading font-800 text-8xl text-primary/20">MU</span>
-                </div>
+                <img
+                  src={profileImg}
+                  alt="Muhammad Uzair portrait"
+                  className="absolute inset-0 w-full h-full object-cover"
+                />
               </div>
               {/* Name overlay card */}
               <div className="absolute -bottom-6 -right-6 bg-card border border-border/50 rounded-xl p-4 shadow-xl">
